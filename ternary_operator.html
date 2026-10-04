@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            width: 100vw;
+            height: 80vh;
+            background-color: rgb(27, 35, 41);
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+        .main {
+            width: 40vw;
+            height: 30vh;
+            background-color: rgb(215, 206, 195);
+            border-radius: 30px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+    </style>
+</head>
+<body>
+    <div class="main">
+        <p type="text" id="show"> </p>
+    </div>
+
+    <script>
+
+const result = document.getElementById("show")
+let age = prompt()
+// let start_rain = 1
+
+
+if (age > 17){
+    result.textContent = "you can drink unlimited"
+} else if (age > 24) {
+    result.textContent = "you can drink until yours stress are release"
+} else if (age > 35){
+        result.textContent = "you can drink 9 pag"
+} else if (age > 47){
+    result.textContent = "you can drink 3 pag"
+} else if (age > 57){
+    result.textContent = "you can drink 2 pag"
+} else {
+    result.textContent = "you can't drink get out"
+}
+
+
+
+// age >= 18 ? result.textContent = "you can drink" : result.textContent = "you can't drink get out"
+
+// start_rain = true ? result.textContent = "pick the umbrala" + console.log("A") : result.textContent = "go without umbrala"
+
+
+    </script>
+</body>
+</html>
