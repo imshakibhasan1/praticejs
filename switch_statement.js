@@ -11,6 +11,8 @@ function getPrice(item) {
         break
         case "apple":
         price = 4.5
+        default
+        return "we don't sell that item"
     }
     return `You Selected ${item}, Price will be $${price}`
 }
