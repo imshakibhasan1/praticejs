@@ -1,4 +1,4 @@
-// const result = document.getElementById("show")
+const result = document.getElementById("show")
 // let age = 55;
 // console.log(typeof(age));
 
