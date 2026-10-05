@@ -1,3 +1,5 @@
+const result = document.getElementById("show")
+
 const favouriteFilm = {
     title: "Top Gun",
     year: "1986",
@@ -14,3 +16,7 @@ let Star = favouriteFilm.star
 let {title, year, genre, star, director} = favouriteFilm
 
 console.log(title);
+
+let text = `My Favourite Movie is ${title} starring by ${star}. It is a action Flim directed by ${director} and release ${year} `
+
+result.textContent = text
